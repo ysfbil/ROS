@@ -1,0 +1,11 @@
+#hedef
+int32 sinir
+char islem
+float64 a
+float64 b
+---
+#sonuc
+float32 sonuc
+---
+#geribildirim
+int32 hedef_feedback

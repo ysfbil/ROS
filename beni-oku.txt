@@ -1,0 +1,30 @@
+deneyap_ws projesini test etmek için aşağıdaki komutları çalıştırın.
+**Herbir satır ayrı bir konsolda çalıştırılmalıdır.
+**Boşluklar farklı örnekleri ayırır
+**çıkmak için ctrl+C kullan
+
+roscore
+rosrun ilk_paket MERHABA_DUGUMU
+
+roscore
+rosrun ilk_paket konuya_abone_ol_subscriber	
+rosrun ilk_paket konu_yayinla_publisher
+rosrun rqt_graph rqt_graph
+
+roscore
+rosrun ilk_paket konuya_abone_ol_ozel_mesaj
+rosrun ilk_paket konu_yayinla_ozel_mesaj
+rosrun rqt_graph rqt_graph
+
+roscore
+rosrun ilk_paket ros_servis_sunucu
+rosrun ilk_paket ros_servis_istemci
+(istemci terminalindeyken bir toplama veya çarpma işlemi yaz. Örneğin 5+10)
+
+roscore
+rosrun ilk_paket ros_eylem_sunucu
+rosrun ilk_paket ros_eylem_istemci 50
+(istemci terminalindeyken bir toplama veya çarpma işlemi yaz. Örneğin 5+10)
+
+roscore
+roslaunch ilk_paket ros_servis_ornegi.launch

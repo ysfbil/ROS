@@ -1,0 +1,6 @@
+<launch>
+<node name="ros_servis_sunucu" pkg="ilk_paket"
+type="ros_servis_sunucu" output="screen" />
+<node name="ros_servis_istemci" pkg="ilk_paket"
+type="ros_servis_istemci" output="screen" />
+</launch>

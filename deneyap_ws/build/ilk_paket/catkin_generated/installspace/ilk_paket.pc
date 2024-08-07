@@ -1,0 +1,8 @@
+prefix=/home/user/deneyap_ws/install
+
+Name: ilk_paket
+Description: Description of ilk_paket
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs roscpp rospy std_msgs message_runtime
